@@ -1,0 +1,69 @@
+body{
+    /* max-width: 80%;
+    /* justify-content: center; */
+    margin: 0 auto; */
+}
+.Nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Nav-center ul li a{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    list-style: none;
+}
+.Nav-center ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+.btn{
+    background-color: green;
+    color: white;
+    display: flex;
+    gap: 20px;
+}
+/* bannar section */
+.bannar-top-text{
+    color: #30B868;
+}
+.bannar{
+    background: url(./assets/hero-bg.png);
+    height: 674px;
+}
+
+.bannar-text{
+    max-width: 540px;
+    text-align: center;
+    margin: 0 auto;
+    align-items: center;
+    padding-top: 200px;
+}
+.bannar .bannar-text{
+    justify-content: center;
+}
+.bannar-botton{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.bannar-botton .btn-1{
+    display: flex;
+    gap: 10px;
+    background-color: #30B868;
+    border: 0px solid;
+    border-radius: 10px;
+}
+/* .bannar-botton .btn-1 img{
+    height: 20px;
+    width: 20px;
+    align-items: center;
+    justify-content: center;
+} */
+.bannar-botton .btn-2:hover{
+    background-color: #30B868;
+    border: 0px solid;
+    border-radius: 10px;
+}
