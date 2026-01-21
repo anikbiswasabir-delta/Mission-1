@@ -35,11 +35,16 @@ body{
 }
 
 .bannar-text{
-    max-width: 540px;
     text-align: center;
     margin: 0 auto;
     align-items: center;
     padding-top: 200px;
+    max-width: 600px;
+    color: white;
+}
+.bannar-text h1{
+    font-size: 60px;
+    color: blanchedalmond;
 }
 .bannar .bannar-text{
     justify-content: center;
@@ -53,8 +58,13 @@ body{
     display: flex;
     gap: 10px;
     background-color: #30B868;
-    border: 0px solid;
-    border-radius: 10px;
+    color: white;
+    border-radius: 5px;
+
+}
+.bannar-botton .btn-2{
+    background-color: none;
+    color: none;
 }
 /* .bannar-botton .btn-1 img{
     height: 20px;
@@ -66,4 +76,10 @@ body{
     background-color: #30B868;
     border: 0px solid;
     border-radius: 10px;
+}
+.bannar-top button{
+    color: #30B868;
+    border-radius: 10px ;
+    padding: 5px 10px;
+    border: none;
 }
