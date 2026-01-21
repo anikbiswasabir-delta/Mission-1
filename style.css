@@ -1,5 +1,5 @@
 body{
-    /* max-width: 80%;
+    max-width: 80%;
     /* justify-content: center; */
     margin: 0 auto; */
 }
@@ -82,4 +82,28 @@ body{
     border-radius: 10px ;
     padding: 5px 10px;
     border: none;
+}
+
+.card-text{
+    text-align: center;
+    margin: o auto;
+}
+.card-text h1{
+    font-size: 40px;
+}
+.card-box{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30PX;
+    gap: 30PX;
+    
+}
+.card{
+    box-shadow: 5px black;}
+}
+.card-box .card img{
+    background-color: #F95555;
+    border-radius: 100px;
+    padding: 10px;
 }
